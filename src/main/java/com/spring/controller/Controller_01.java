@@ -44,4 +44,11 @@ public class Controller_01 {
         }
         return "viewPage_process";
     }
+
+
+
+    @GetMapping("abc")
+    public String getText(){
+        return "viewPage";
+    }
 }
