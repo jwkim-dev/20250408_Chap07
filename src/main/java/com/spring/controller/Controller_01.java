@@ -5,6 +5,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.multipart.MultipartHttpServletRequest;
 
@@ -51,4 +52,22 @@ public class Controller_01 {
     public String getText(){
         return "viewPage";
     }
+    @GetMapping("abc2")
+    @ResponseBody
+    public String getText2(){
+        return "viewPage323232";
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
