@@ -1,0 +1,11 @@
+<html>
+<head>
+    <title>Chap07</title>
+</head>
+<body>
+<h3 th:text="${data1}"></h3>
+<p >실제 파일 이름: <span th:utext="${data2}"/>
+<p> 서버 파일 이름 : <span th:utext="${data3}"/>
+<p><img th:src="'/myFiles/'+${data3}" width="100" />
+</body>
+<html>
